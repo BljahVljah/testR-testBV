@@ -15,7 +15,7 @@ import getVisibleExpenses from './selectors/expenses';
 import {Provider} from 'react-redux';
 
 const store = configureStore();
-
+console.log('dela');
 
 const jsx = (
     <Provider store={store}>
